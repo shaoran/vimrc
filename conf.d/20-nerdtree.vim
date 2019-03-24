@@ -1,7 +1,5 @@
-map <F8> :NERDTreeTabsToggle<CR>
-imap <F8> <ESC>:NERDTreeTabsToggle<CR>
-map <S-F8> :NERDTree<CR>
-imap <S-F8> <ESC>:NERDTree<CR>
+map <F8> :NERDTreeToggle<CR>
+imap <F8> <ESC>:NERDTreeToggle<CR>
 map <C-F8> :NERDTreeMirror<CR>
 imap <C-F8> <ESC>:NERDTreeMirror<CR>
 let NERDTreeIgnore=['\.swp$', '\~$']

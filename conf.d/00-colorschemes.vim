@@ -8,6 +8,10 @@ set t_Co=256
 colorscheme peachpuff
 syntax on
 
+" visual selection because of peachpuff color scheme
+" and my normal foreground color
+hi Visual ctermbg=black
+
 " colors for the tabs
 hi TabLine cterm=None ctermfg=white ctermbg=DarkBlue
 hi TabLineFill ctermfg=DarkBlue

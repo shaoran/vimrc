@@ -24,5 +24,7 @@ Plug 'pangloss/vim-javascript'
 " es-lint
 Plug 'w0rp/ale'
 
+" plugin for editorconfig https://editorconfig.org/
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()

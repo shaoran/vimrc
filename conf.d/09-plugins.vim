@@ -21,5 +21,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Syntax & languages
 Plug 'pangloss/vim-javascript'
 
-call plug#end()
+" es-lint
+Plug 'w0rp/ale'
 
+
+call plug#end()

@@ -4,11 +4,11 @@
 " https://vim.fandom.com/wiki/256_colors_in_vim
 set t_Co=256
 
-colorscheme default
-"colorscheme peachpuff
+" colorscheme default
+colorscheme peachpuff
 syntax on
 
-set bg=dark
+"set bg=dark
 
 " visual selection because of peachpuff color scheme
 " and my normal foreground color

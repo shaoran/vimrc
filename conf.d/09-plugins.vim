@@ -30,5 +30,8 @@ Plug 'editorconfig/editorconfig-vim'
 " python black
 Plug 'psf/black'
 
+" JSX syntax
+Plug 'maxmellon/vim-jsx-pretty'
+
 
 call plug#end()

@@ -33,5 +33,8 @@ Plug 'psf/black'
 " JSX syntax
 Plug 'maxmellon/vim-jsx-pretty'
 
+" TypeScript syntax
+" Plug 'HerringtonDarkholme/yats.vim'
+
 
 call plug#end()

@@ -39,5 +39,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 " Better markdown syntax
 Plug 'plasticboy/vim-markdown'
 
+" Alignments
+Plug 'godlygeek/tabular'
 
 call plug#end()

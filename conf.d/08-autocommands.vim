@@ -9,7 +9,7 @@ au BufRead,BufNewFile,FileType,Syntax * if &ft == 'markdown' | set sw=4 ts=4 sts
 au BufRead,BufNewFile,FileType,Syntax *.htmld set ft=htmldjango
 
 autocmd BufRead,BufNewFile,FileType,Syntax ~/.mozilla/firefox/dw3dcqwf.default/itsalltext/stackoverflow.* set ft=markdown expandtab textwidth=80 wrap
-autocmd BufRead,BufNewFile,FileType,Syntax /tmp/shaoran-text-aid-too* set ft=markdown expandtab textwidth=80 wrap
+autocmd BufRead,BufNewFile,FileType,Syntax /tmp/*-text-aid-too* set ft=markdown expandtab textwidth=80 wrap
 
 
 au BufNewFile,BufRead *.redmine set filetype=redminewiki

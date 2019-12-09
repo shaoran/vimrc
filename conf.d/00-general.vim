@@ -9,3 +9,6 @@ let mapleader='+'   " it's easier to reach as the default \
 if has("autocmd")
 	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+" Clear undo history when doing :e
+set undoreload=0

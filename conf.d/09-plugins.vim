@@ -42,4 +42,7 @@ Plug 'plasticboy/vim-markdown'
 " Alignments
 Plug 'godlygeek/tabular'
 
+" gpg
+Plug 'jamessan/vim-gnupg'
+
 call plug#end()

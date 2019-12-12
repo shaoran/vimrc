@@ -14,6 +14,7 @@ set bg=dark
 " and my normal foreground color
 hi Visual ctermbg=black
 hi Search ctermbg=5
+hi mailSubject ctermbg=2
 
 hi htmlH1 ctermbg=5
 hi htmlTitle ctermbg=5

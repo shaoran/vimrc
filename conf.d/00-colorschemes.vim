@@ -19,6 +19,7 @@ hi mailSubject ctermbg=2
 hi htmlH1 ctermbg=5
 hi htmlTitle ctermbg=5
 hi Comment ctermfg=4
+hi Title ctermfg=4
 
 " colors for the tabs
 hi TabLine cterm=None ctermfg=white ctermbg=DarkBlue

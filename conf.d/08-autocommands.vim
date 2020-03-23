@@ -15,6 +15,7 @@ augroup customvimrc
 	au BufRead,BufNewFile ~/.ssh/config.d/*.ssh set ft=sshconfig
 
 	autocmd BufRead,BufNewFile,FileType,Syntax ~/.mozilla/firefox/dw3dcqwf.default/itsalltext/stackoverflow.* set ft=markdown expandtab textwidth=80 wrap
+	autocmd BufRead,BufNewFile,FileType,Syntax /tmp/withExEditor/** set ft=markdown expandtab textwidth=80 wrap
 	autocmd BufRead,BufNewFile,FileType,Syntax /tmp/*-text-aid-too* set ft=markdown expandtab textwidth=80 wrap
 
 

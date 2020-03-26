@@ -28,7 +28,7 @@ Plug 'w0rp/ale'
 Plug 'editorconfig/editorconfig-vim'
 
 " python black
-Plug 'psf/black'
+Plug 'psf/black', { 'branch': 'stable' }
 
 " JSX syntax
 Plug 'maxmellon/vim-jsx-pretty'

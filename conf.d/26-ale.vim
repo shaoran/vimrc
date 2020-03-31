@@ -1,7 +1,7 @@
 let g:ale_enabled = 0 
 
 let g:ale_fixers = { 
-\    'javascript': [ 'eslint' ]
+\    'javascript': [ 'eslint' ],
 \}
 
 let g:ale_javascript_eslint_executable = '/home/shaoran/local/nodejs/node-v10.13.0-linux-x64/bin/eslint_d'

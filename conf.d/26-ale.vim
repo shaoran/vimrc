@@ -4,7 +4,7 @@ let g:ale_fixers = {
 \    'javascript': [ 'eslint' ],
 \}
 
-let g:ale_javascript_eslint_executable = '/home/shaoran/local/nodejs/node-v10.13.0-linux-x64/bin/eslint_d'
+let g:ale_javascript_eslint_executable = '/home/shaoran/local/nodejs/node-v10.16.0-linux-x64/bin/eslint_d'
 let g:ale_javascript_flow_use_global = 1 
 
 let g:ale_statusline_format = ['%d errors', '%d warnings', 'no errors']

@@ -9,7 +9,7 @@ augroup customvimrc
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'ruby' | set sw=2 ts=2 sts=2 expandtab expandtab | endif
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'ruby' | set sw=2 ts=2 sts=2 expandtab expandtab | endif
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'yaml' | set sw=2 ts=2 sts=2 expandtab | endif
-	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'markdown' | set sw=4 ts=4 sts=4 expandtab | endif
+	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'markdown' | set sw=4 ts=4 sts=4 expandtab textwidth=80 wrap | endif
 	au BufRead,BufNewFile,FileType,Syntax *.htmld set ft=htmldjango
 
 	au BufRead,BufNewFile ~/.ssh/config.d/*.ssh set ft=sshconfig

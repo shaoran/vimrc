@@ -9,3 +9,7 @@ let mapleader='+'   " it's easier to reach as the default \
 if has("autocmd")
 	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+" HerringtonDarkholme/yats.vim suggest doing this
+" it made worse for me
+"set re=1

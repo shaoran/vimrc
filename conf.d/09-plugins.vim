@@ -1,7 +1,7 @@
 " Manage plugins with vim-plug
 " https://github.com/junegunn/vim-plug
 
-call plug#begin('~/.vim/plugged')
+call plug#begin($plug_dir)
 
 " git integration
 Plug 'tpope/vim-fugitive'

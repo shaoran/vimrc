@@ -28,13 +28,13 @@ Plug 'w0rp/ale'
 Plug 'editorconfig/editorconfig-vim'
 
 " python black
-Plug 'psf/black'
+Plug 'shaoran/black', { 'branch': 'allow_override_args_19.10b0' }
 
 " JSX syntax
 Plug 'maxmellon/vim-jsx-pretty'
 
 " TypeScript syntax
-" Plug 'HerringtonDarkholme/yats.vim'
+Plug 'HerringtonDarkholme/yats.vim'
 
 " Better markdown syntax
 Plug 'plasticboy/vim-markdown'

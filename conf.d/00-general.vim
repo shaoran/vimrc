@@ -14,6 +14,10 @@ if has("autocmd")
     au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
+
+" Clear undo history when doing :e
+set undoreload=0
+
 " HerringtonDarkholme/yats.vim suggest doing this
 " it made worse for me
 "set re=1

@@ -3,6 +3,8 @@ let g:ale_enabled = 0
 let g:ale_fixers = {
 \    'typescript': [ 'eslint' ],
 \    'javascript': [ 'eslint' ],
+\    'javascriptreact': [ 'eslint' ],
+\    'typescriptreact': [ 'eslint' ],
 \    'html': [ 'prettier' ],
 \}
 

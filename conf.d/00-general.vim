@@ -26,3 +26,9 @@ set undoreload=0
 map <Leader>hi :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
     \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
     \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+
+
+" fuzzy search without node_modules:
+" https://vi.stackexchange.com/questions/11644/ignore-folders-when-performing-find-command
+"set path+=**
+set wildignore+=**/node_modules/**

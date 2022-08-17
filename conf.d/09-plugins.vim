@@ -1,7 +1,7 @@
 " Manage plugins with vim-plug
 " https://github.com/junegunn/vim-plug
 
-call plug#begin('~/.vim/plugged')
+call plug#begin($plug_dir)
 
 " git integration
 Plug 'tpope/vim-fugitive'
@@ -34,7 +34,7 @@ Plug 'shaoran/black', { 'branch': 'allow_override_args_19.10b0' }
 Plug 'maxmellon/vim-jsx-pretty'
 
 " TypeScript syntax
-" Plug 'HerringtonDarkholme/yats.vim'
+Plug 'HerringtonDarkholme/yats.vim'
 
 " Better markdown syntax
 Plug 'plasticboy/vim-markdown'

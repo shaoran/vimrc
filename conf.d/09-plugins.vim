@@ -42,4 +42,7 @@ Plug 'plasticboy/vim-markdown'
 " Alignments
 Plug 'godlygeek/tabular'
 
+" nginx syntax
+Plug 'chr4/nginx.vim'
+
 call plug#end()

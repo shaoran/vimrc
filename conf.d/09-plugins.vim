@@ -28,7 +28,7 @@ Plug 'w0rp/ale'
 Plug 'editorconfig/editorconfig-vim'
 
 " python black
-Plug 'shaoran/black', { 'branch': 'allow_override_args_19.10b0' }
+Plug 'psf/black'
 
 " JSX syntax
 Plug 'maxmellon/vim-jsx-pretty'

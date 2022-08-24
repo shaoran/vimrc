@@ -45,4 +45,7 @@ Plug 'godlygeek/tabular'
 " gpg
 Plug 'jamessan/vim-gnupg'
 
+" nginx syntax
+Plug 'chr4/nginx.vim'
+
 call plug#end()

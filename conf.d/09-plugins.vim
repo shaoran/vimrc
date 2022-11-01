@@ -45,4 +45,7 @@ Plug 'godlygeek/tabular'
 " Jinja
 Plug 'lepture/vim-jinja'
 
+" nginx syntax
+Plug 'chr4/nginx.vim'
+
 call plug#end()

@@ -42,4 +42,7 @@ Plug 'plasticboy/vim-markdown'
 " Alignments
 Plug 'godlygeek/tabular'
 
+" Jinja
+Plug 'lepture/vim-jinja'
+
 call plug#end()

@@ -34,6 +34,7 @@ if v:version < 900
 endif
 
 if v:version >= 900
-	colorscheme desert
+	colorscheme default
+	set bg=dark
 	syntax on
 endif

@@ -22,15 +22,6 @@ if v:version < 900
 	hi Comment ctermfg=4
 	hi Title cterm=bold ctermfg=51
 
-	" colors for the tabs
-	hi TabLine cterm=None ctermfg=white ctermbg=DarkBlue
-	hi TabLineFill ctermfg=DarkBlue
-	hi TabLineSel ctermfg=DarkBlue ctermbg=White cterm=underline,italic
-
-
-	" colors for statusline
-	hi StatusLine cterm=bold ctermbg=red ctermfg=white
-	hi StatusLineNC ctermfg=grey ctermbg=black
 endif
 
 if v:version >= 900
@@ -38,3 +29,15 @@ if v:version >= 900
 	set bg=dark
 	syntax on
 endif
+
+" this colors work indenpently of the scheme
+
+" colors for the tabs
+hi TabLine cterm=None ctermfg=white ctermbg=DarkBlue
+hi TabLineFill ctermfg=DarkBlue
+hi TabLineSel ctermfg=DarkBlue ctermbg=White cterm=underline,italic
+
+
+" colors for statusline
+hi StatusLine cterm=bold ctermbg=red ctermfg=white
+hi StatusLineNC ctermfg=grey ctermbg=black

@@ -19,7 +19,6 @@ if v:version < 900
 
 	hi htmlH1 ctermbg=5
 	hi htmlTitle ctermbg=5
-	hi Comment ctermfg=4
 	hi Title cterm=bold ctermfg=51
 
 endif
@@ -41,3 +40,25 @@ hi TabLineSel ctermfg=DarkBlue ctermbg=White cterm=underline,italic
 " colors for statusline
 hi StatusLine cterm=bold ctermbg=red ctermfg=white
 hi StatusLineNC ctermfg=grey ctermbg=black
+
+" color of comments
+hi Comment ctermfg=4
+
+hi htmlH1 cterm=bold ctermfg=033
+hi htmlH2 cterm=bold ctermfg=032
+hi htmlH3 cterm=bold ctermfg=031
+hi htmlH4 cterm=bold ctermfg=034
+hi htmlH5 cterm=bold ctermfg=035
+hi htmlH6 cterm=bold ctermfg=036
+
+" see https://stackoverflow.com/questions/9464844/how-to-get-group-name-of-highlighting-under-cursor-in-vim
+function! SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
+function! SynGroup()
+    let l:s = synID(line('.'), col('.'), 1)
+    echo synIDattr(l:s, 'name') . ' -> ' . synIDattr(synIDtrans(l:s), 'name')
+endfun

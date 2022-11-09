@@ -2,7 +2,7 @@ augroup customvimrc
 	" remove all customvimrc autocommands
 	autocmd!
 
-	au BufRead,BufNewFile,FileType,Syntax * set noexpandtab
+	"au BufRead,BufNewFile,FileType,Syntax * set noexpandtab
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'pyrex' | setl expandtab | endif
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'python' | setl sw=4 ts=4 sts=4 expandtab | endif
 	au BufRead,BufNewFile,FileType,Syntax * if &ft == 'rst' | setl expandtab | endif

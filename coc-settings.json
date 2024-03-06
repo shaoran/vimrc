@@ -1,0 +1,7 @@
+{
+	"suggest.floatEnable": false,
+	"suggest.autoTrigger": "trigger",
+	"suggest.noselect": true,
+	"inlayHint.enable": false,
+	"coc.preferences.extensionUpdateCheck": "never"
+}

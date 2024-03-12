@@ -53,7 +53,7 @@ Plug 'lepture/vim-jinja'
 Plug 'chr4/nginx.vim'
 
 " CoC
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc.nvim', {'tag': 'v0.0.81'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'tag': 'v0.0.81'}
 
 call plug#end()

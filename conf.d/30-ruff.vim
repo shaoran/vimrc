@@ -1,0 +1,1 @@
+command! Ruff :%! ruff format -

@@ -23,3 +23,5 @@ nmap <silent> <C-c>p <Plug>(coc-diagnostic-prev)
 nmap <silent> <C-c>n <Plug>(coc-diagnostic-next)
 
 nmap <silent> <C-c>t :call CocAction('doHover')<CR>
+
+autocmd FileType python let b:coc_root_patterns = ['.git', '.env', 'venv', '.venv', 'setup.cfg', 'setup.py', 'pyproject.toml', 'pyrightconfig.json']

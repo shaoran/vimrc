@@ -52,4 +52,6 @@ Plug 'chr4/nginx.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'neoclide/coc.nvim', {'tag': 'v0.0.81'}
 
+Plug 'shaoran/vim-ruff'
+
 call plug#end()

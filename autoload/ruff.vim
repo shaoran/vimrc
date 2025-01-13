@@ -5,7 +5,7 @@ import subprocess
 # The idea of this code comes from Black's VIM plugin,
 # I just replaced "black" with "ruff". Preserving the
 # cursors is not my idea though.
-def Ruff():
+def OldRuff():
     bin_path = shutil.which("ruff")
     if bin_path is None:
         print("ruff was not found in your PATH")
@@ -50,6 +50,7 @@ def Ruff():
     print("ruff formatted your code")
 EndPython3
 
-function ruff#Ruff()
-    :py3 Ruff()
+function ruff#OldRuff()
+    :py3 OldRuff()
 endfunction
+

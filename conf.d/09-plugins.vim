@@ -59,4 +59,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "vimruff
 Plug 'shaoran/vim-ruff'
 
+" TOML syntax
+Plug 'cespare/vim-toml', { 'branch': 'main' }
+
 call plug#end()
